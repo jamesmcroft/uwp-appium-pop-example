@@ -2,7 +2,15 @@
 
 Taking advantage of the [WinAppDriver](https://github.com/microsoft/WinAppDriver) service to provide Appium UI tests for Windows apps, this project serves as a simple example of building tests following the Page Object Pattern.
 
-The sample uses the default Windows Alarms & Clock application to provide example tests for adding and editing alarms. 
+The sample uses the default Windows Alarms & Clock application to provide example tests for adding and editing alarms.
+
+### Wnat is the Page Object Pattern?
+
+The goal of the page object pattern is to use page objects to abstract page information away from your tests. Ideally, they will store all your selectors to find UI elements that a page is aware of and actions that are capable of the page. 
+
+As a result, the page object provides reusable, chainable components which can be used to create well-structured, easily readable tests.
+
+Explore the [EditAlarmPage](/src/Uwp.Appium.PopExample.Alarms/Pages/EditAlarmPage.cs) example for more info. 
 
 ### Get started
 1. Download Windows Application Driver installer from <https://github.com/Microsoft/WinAppDriver/releases>
