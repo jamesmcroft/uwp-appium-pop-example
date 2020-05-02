@@ -1,8 +1,8 @@
-namespace Uwp.Appium.PopExample.CommunityToolkit
+namespace Uwp.Appium.PopExample.Alarms
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-    public abstract class BaseTest
+    public abstract class BaseTestClass
     {
         [TestInitialize]
         public virtual void Initialize()
@@ -13,7 +13,7 @@ namespace Uwp.Appium.PopExample.CommunityToolkit
         [TestCleanup]
         public virtual void Cleanup()
         {
-            // AppManager.StopApp();
+            AppManager.StopApp();
         }
     }
 }

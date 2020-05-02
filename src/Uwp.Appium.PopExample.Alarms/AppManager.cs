@@ -1,4 +1,4 @@
-namespace Uwp.Appium.PopExample.CommunityToolkit
+namespace Uwp.Appium.PopExample.Alarms
 {
     using System;
 
@@ -12,7 +12,7 @@ namespace Uwp.Appium.PopExample.CommunityToolkit
     {
         private const string WindowsApplicationDriverUrl = "http://127.0.0.1:4723";
 
-        private const string AppId = "Microsoft.UWPCommunityToolkitSampleApp_8wekyb3d8bbwe!App";
+        private const string AppId = "Microsoft.WindowsAlarms_8wekyb3d8bbwe!App";
 
         private static WindowsDriver<WindowsElement> app;
 
