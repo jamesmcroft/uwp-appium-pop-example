@@ -1,4 +1,4 @@
-namespace Uwp.Appium.PopExample
+namespace Uwp.Appium.PopExample.CommunityToolkit
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 

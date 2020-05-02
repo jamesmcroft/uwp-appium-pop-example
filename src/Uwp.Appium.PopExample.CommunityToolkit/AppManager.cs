@@ -1,11 +1,9 @@
-namespace Uwp.Appium.PopExample
+namespace Uwp.Appium.PopExample.CommunityToolkit
 {
     using System;
-    using System.Runtime.CompilerServices;
 
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-    using OpenQA.Selenium;
     using OpenQA.Selenium.Appium;
     using OpenQA.Selenium.Appium.Windows;
     using OpenQA.Selenium.Remote;
