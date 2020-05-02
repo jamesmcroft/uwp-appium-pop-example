@@ -12,14 +12,14 @@ namespace Uwp.Appium.PopExample.Alarms
     {
         protected BasePage()
         {
-            this.AssertOnPage(TimeSpan.FromSeconds(5));
+            this.VerifyPageShown(TimeSpan.FromSeconds(2));
         }
 
         protected WindowsDriver<WindowsElement> App => AppManager.App;
 
         protected abstract By Trait { get; }
 
-        protected void AssertOnPage(TimeSpan? timeout)
+        public void VerifyPageShown(TimeSpan? timeout)
         {
             string message = $"Unable to verify on page '{this.GetType().Name}'";
 
